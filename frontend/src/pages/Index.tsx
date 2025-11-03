@@ -8,9 +8,9 @@ const genres = ["Action", "Drama", "Comedy", "Thriller", "Adventure", "Crime", "
 
 // ✅ Auto-detect API URL based on environment
 const API_BASE_URL = import.meta.env.PROD 
-  ? "https://moodflix-backend.onrender.com"  // 👈 REPLACE with your Render URL after deployment
+  ? "https://moodflix-backend-5si9.onrender.com"  // 👈 YOUR ACTUAL URL
   : "http://localhost:8000";
-
+  
 const Index = () => {
   const [mood, setMood] = useState("");
   const [selectedGenre, setSelectedGenre] = useState<string>("All");
